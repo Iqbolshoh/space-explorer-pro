@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,214 +8,252 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-<div class="stars"></div>
+    <div class="stars"></div>
 
-<header>
-    <div class="logo">
-        🚀 AstroVerse
-    </div>
+    <header>
+        <div class="logo">
+            🚀 AstroVerse
+        </div>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#planets">Planets</a>
-        <a href="#missions">Missions</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#planets">Planets</a>
+            <a href="#missions">Missions</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <button class="nav-btn">
-        Explore
-    </button>
-</header>
+        <button class="nav-btn">
+            Explore
+        </button>
+    </header>
 
-<section class="hero" id="home">
+    <section class="hero" id="home">
 
-    <div class="hero-content">
-        <span class="tag">
-            ✨ Journey Through Space
-        </span>
+        <div class="hero-content">
+            <span class="tag">
+                ✨ Journey Through Space
+            </span>
 
-        <h1>
-            Explore The
-            <span>Universe</span>
-        </h1>
+            <h1>
+                Explore The
+                <span>Universe</span>
+            </h1>
+
+            <p>
+                Discover planets, galaxies, black holes and
+                the greatest mysteries of the cosmos.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="primary-btn">
+                    Start Journey
+                </button>
+
+                <button class="secondary-btn">
+                    Watch Mission
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="planet"></div>
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>8</h2>
+            <p>Planets</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>200+</h2>
+            <p>Missions</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>1000+</h2>
+            <p>Discoveries</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>13.8B</h2>
+            <p>Universe Age</p>
+        </div>
+
+    </section>
+
+
+    <section id="planets" class="planets">
+
+        <h2 class="section-title">
+            Solar System
+        </h2>
+
+        <div class="planet-grid">
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/PIA16853/PIA16853~orig.jpg" alt="Mercury">
+                <h3>Mercury</h3>
+                <p>The smallest planet in our solar system.</p>
+            </div>
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/PIA00271/PIA00271~orig.jpg" alt="Venus">
+                <h3>Venus</h3>
+                <p>The hottest planet with a thick atmosphere.</p>
+            </div>
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001861/GSFC_20171208_Archive_e001861~orig.jpg"
+                    alt="Earth">
+                <h3>Earth</h3>
+                <p>Our home and the only known habitable planet.</p>
+            </div>
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/PIA00407/PIA00407~orig.jpg" alt="Mars">
+                <h3>Mars</h3>
+                <p>The famous Red Planet.</p>
+            </div>
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/PIA02879/PIA02879~orig.jpg" alt="Jupiter">
+                <h3>Jupiter</h3>
+                <p>The largest planet in the Solar System.</p>
+            </div>
+
+            <div class="planet-card">
+                <img src="https://images-assets.nasa.gov/image/PIA03152/PIA03152~orig.jpg" alt="Saturn">
+                <h3>Saturn</h3>
+                <p>Known for its magnificent rings.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="missions" id="missions">
+
+        <h2 class="section-title">
+            Featured Missions
+        </h2>
+
+        <div class="mission-container">
+
+            <div class="mission-card">
+                <h3>Apollo 11</h3>
+                <p>First Moon Landing Mission.</p>
+            </div>
+
+            <div class="mission-card">
+                <h3>Voyager 1</h3>
+                <p>Exploring Interstellar Space.</p>
+            </div>
+
+            <div class="mission-card">
+                <h3>Artemis</h3>
+                <p>Return To The Moon.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="gallery" id="gallery">
+
+        <h2 class="section-title">
+            Galaxy Gallery
+        </h2>
+
+        <div class="gallery-grid">
+
+            
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" alt="Milky Way">
+                <div class="gallery-overlay">
+                    <h3>Milky Way</h3>
+                    <p>Our home galaxy.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Andromeda">
+                <div class="gallery-overlay">
+                    <h3>Andromeda</h3>
+                    <p>Nearest major galaxy.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" alt="Black Hole">
+                <div class="gallery-overlay">
+                    <h3>Black Hole</h3>
+                    <p>Mysterious cosmic object.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a" alt="Nebula">
+                <div class="gallery-overlay">
+                    <h3>Nebula</h3>
+                    <p>Birthplace of stars.</p>
+                </div>
+            </div>
+        
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="facts">
+
+        <div class="fact-box">
+
+            <h2>Space Fact</h2>
+
+            <p id="fact">
+                A day on Venus is longer than a year.
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer id="contact">
+
+        <h2>AstroVerse</h2>
 
         <p>
-            Discover planets, galaxies, black holes and
-            the greatest mysteries of the cosmos.
+            Explore the endless universe with us.
         </p>
 
-        <div class="hero-buttons">
-            <button class="primary-btn">
-                Start Journey
-            </button>
-
-            <button class="secondary-btn">
-                Watch Mission
-            </button>
-        </div>
-    </div>
-
-    <div class="hero-image">
-        <div class="planet"></div>
-    </div>
-
-</section>
-
-<section class="stats">
-
-    <div class="stat-card">
-        <h2>8</h2>
-        <p>Planets</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>200+</h2>
-        <p>Missions</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>1000+</h2>
-        <p>Discoveries</p>
-    </div>
-
-    <div class="stat-card">
-        <h2>13.8B</h2>
-        <p>Universe Age</p>
-    </div>
-
-</section>
-
-
-<section id="planets" class="planets">
-
-    <h2 class="section-title">
-        Solar System
-    </h2>
-
-    <div class="planet-grid">
-
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/PIA16853/PIA16853~orig.jpg" alt="Mercury">
-            <h3>Mercury</h3>
-            <p>The smallest planet in our solar system.</p>
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
         </div>
 
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/PIA00271/PIA00271~orig.jpg" alt="Venus">
-            <h3>Venus</h3>
-            <p>The hottest planet with a thick atmosphere.</p>
-        </div>
+    </footer>
 
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001861/GSFC_20171208_Archive_e001861~orig.jpg" alt="Earth">
-            <h3>Earth</h3>
-            <p>Our home and the only known habitable planet.</p>
-        </div>
-
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/PIA00407/PIA00407~orig.jpg" alt="Mars">
-            <h3>Mars</h3>
-            <p>The famous Red Planet.</p>
-        </div>
-
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/PIA02879/PIA02879~orig.jpg" alt="Jupiter">
-            <h3>Jupiter</h3>
-            <p>The largest planet in the Solar System.</p>
-        </div>
-
-        <div class="planet-card">
-            <img src="https://images-assets.nasa.gov/image/PIA03152/PIA03152~orig.jpg" alt="Saturn">
-            <h3>Saturn</h3>
-            <p>Known for its magnificent rings.</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="missions" id="missions">
-
-    <h2 class="section-title">
-        Featured Missions
-    </h2>
-
-    <div class="mission-container">
-
-        <div class="mission-card">
-            <h3>Apollo 11</h3>
-            <p>First Moon Landing Mission.</p>
-        </div>
-
-        <div class="mission-card">
-            <h3>Voyager 1</h3>
-            <p>Exploring Interstellar Space.</p>
-        </div>
-
-        <div class="mission-card">
-            <h3>Artemis</h3>
-            <p>Return To The Moon.</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="gallery" id="gallery">
-
-    <h2 class="section-title">
-        Galaxy Gallery
-    </h2>
-
-    <div class="gallery-grid">
-
-        <div class="gallery-card"></div>
-        <div class="gallery-card"></div>
-        <div class="gallery-card"></div>
-        <div class="gallery-card"></div>
-
-    </div>
-
-</section>
-
-<section class="facts">
-
-    <div class="fact-box">
-
-        <h2>Space Fact</h2>
-
-        <p id="fact">
-            A day on Venus is longer than a year.
-        </p>
-
-    </div>
-
-</section>
-
-<footer id="contact">
-
-    <h2>AstroVerse</h2>
-
-    <p>
-        Explore the endless universe with us.
-    </p>
-
-    <div class="footer-links">
-        <a href="#">Instagram</a>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-    </div>
-
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
